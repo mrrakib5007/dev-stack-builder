@@ -1,0 +1,152 @@
+[
+  {
+    "id": "react",
+    "name": "React",
+    "category": "Frontend",
+    "description": "A declarative, component-based JavaScript library for building modern user interfaces.",
+    "icon": "https://techicons.dev/icons/react",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Popular"
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "category": "Database",
+    "description": "A powerful, open-source object-relational database system with proven reliability.",
+    "icon": "https://techicons.dev/icons/postgresql",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Top SQL"
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "category": "Language",
+    "description": "A lightweight, interpreted, or just-in-time compiled programming language with first-class functions.",
+    "icon": "https://techicons.dev/icons/javascript",
+    "rating": 4.8,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Essential"
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "category": "Language",
+    "description": "An extension of JavaScript that adds types to the language, accelerating development and catching errors early.",
+    "icon": "https://techicons.dev/icons/typescript",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Trending"
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "category": "Backend",
+    "description": "A JavaScript runtime built on Chrome's V8 JavaScript engine for scalable network applications.",
+    "icon": "https://techicons.dev/icons/nodejs",
+    "rating": 4.7,
+    "difficulty": "Intermediate",
+    "badge": "Popular"
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "category": "Language",
+    "description": "A high-level, general-purpose programming language known for its clear syntax and vast ecosystem.",
+    "icon": "https://techicons.dev/icons/python",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Top Choice"
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "category": "DevOps",
+    "description": "A set of platform as a service products that use OS-level virtualization to deliver software in containers.",
+    "icon": "https://techicons.dev/icons/docker",
+    "rating": 4.8,
+    "difficulty": "Advanced",
+    "badge": "Essential"
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "category": "Database",
+    "description": "A source-available cross-platform document-oriented database program classified as a NoSQL database.",
+    "icon": "https://techicons.dev/icons/mongodb",
+    "rating": 4.6,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Top NoSQL"
+  },
+  {
+    "id": "tailwindcss",
+    "name": "Tailwind CSS",
+    "category": "Frontend",
+    "description": "A utility-first CSS framework packed with classes that can be composed to build any design directly.",
+    "icon": "https://techicons.dev/icons/tailwindcss",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Favorite"
+  },
+  {
+    "id": "nextjs",
+    "name": "Next.js",
+    "category": "Fullstack",
+    "description": "An open-source web development framework providing React-based web applications with server-side rendering.",
+    "icon": "https://techicons.dev/icons/nextjs",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Must-Know"
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "category": "Database",
+    "description": "An in-memory data structure store used as a distributed, in-memory key-value database, cache, and message broker.",
+    "icon": "https://techicons.dev/icons/redis",
+    "rating": 4.8,
+    "difficulty": "Advanced",
+    "badge": "High Performance"
+  },
+  {
+    "id": "graphql",
+    "name": "GraphQL",
+    "category": "API",
+    "description": "An open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data.",
+    "icon": "https://techicons.dev/icons/graphql",
+    "rating": 4.7,
+    "difficulty": "Advanced",
+    "badge": "Modern"
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "category": "Tools",
+    "description": "A distributed version control system tracking changes in any set of computer files, usually used for coordinate work.",
+    "icon": "https://techicons.dev/icons/git",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Essential"
+  },
+  {
+    "id": "vue",
+    "name": "Vue.js",
+    "category": "Frontend",
+    "description": "An incremental JavaScript framework for building user interfaces on top of standard HTML, CSS, and JavaScript.",
+    "icon": "https://techicons.dev/icons/vuejs",
+    "rating": 4.8,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Progressive"
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "category": "DevOps",
+    "description": "An open-source system for automating deployment, scaling, and management of containerized applications.",
+    "icon": "https://techicons.dev/icons/kubernetes",
+    "rating": 4.7,
+    "difficulty": "Advanced",
+    "badge": "Enterprise"
+  }
+]
