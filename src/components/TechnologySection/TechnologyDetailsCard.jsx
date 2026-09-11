@@ -1,10 +1,11 @@
 import React from 'react'
 
-const TechnologyDetailsCard = ({ techData }) => {
+const TechnologyDetailsCard = ({ techData, handleAddToCart, myTechStack }) => {
     const { id, name, category, description, icon, rating, difficulty, badge, badgeColor } = techData;
+    const isExist = myTechStack.some(tech => tech.id === id);
 
     return (
-        <div className='bg-white border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between h-full'>
+        <div className={`bg-white border ${isExist ? "border-red-300" : "border-gray-200"} rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between h-full`}>
             <div>
                 <div className='flex justify-between items-start mb-4'>
                     <div className='w-12 h-12 flex items-center justify-center'>                         
@@ -38,8 +39,10 @@ const TechnologyDetailsCard = ({ techData }) => {
                     </div>
                 </div>
 
-                <button className='w-full py-2.5 bg-gray-900 hover:bg-gray-800 text-white text-sm font-semibold rounded-xl transition-colors cursor-pointer'>
-                    Add to Stack
+                <button onClick={() => handleAddToCart(techData)} disabled={isExist} className={`w-full py-2.5 bg-gray-900 hover:bg-gray-800 text-white text-sm font-semibold rounded-xl transition-colors cursor-pointer disabled:bg-red-100 disabled:text-red-500`}>
+                    {
+                        isExist ? "✔ Added to Stack" : "Add to Stack"
+                    }
                 </button>
             </div>
         </div>
