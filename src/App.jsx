@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import Banner from './components/Banner'
 import TechnologySection from './components/TechnologySection/TechnologySection'
 import { Slide, ToastContainer } from 'react-toastify'
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
       <Navbar />
       <Banner />
       <TechnologySection />
+      <Footer />
     </div>
   )
 }
