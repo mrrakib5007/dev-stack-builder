@@ -14,13 +14,7 @@
     var(--primary) 0%, 
     var(--secoundary-color) 50%, 
     var(--third-color) 100%
-  );
-  
-  --btn-gradient: linear-gradient(
-    90deg, 
-    var(--primary) 0%, 
-    var(--secoundary-color) 100%
-  );
+  );  
 }
 
 body { 

@@ -1,5 +1,6 @@
-import Banner from './components/Banner'
 import Navbar from './components/Navbar'
+import Banner from './components/Banner'
+import TechnologySection from './components/TechnologySection/TechnologySection'
 
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
     <div>
       <Navbar />
       <Banner />
+      <TechnologySection />
     </div>
   )
 }
