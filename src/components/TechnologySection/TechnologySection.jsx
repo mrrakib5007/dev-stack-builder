@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import TechnologyContainer from './TechnologyContainer';
 import TechnologyCartSection from './TechnologyCartSection';
+import { Slide, toast } from 'react-toastify';
 
 
 const TechnologySection = () => {
@@ -16,6 +17,17 @@ const TechnologySection = () => {
                 setTechnologiesData(data);
             } catch (error) {
                 console.error("Error fetching data:", error);
+                toast.error(`Error fetching data`, {
+                    position: "top-right",
+                    autoClose: 3000,
+                    hideProgressBar: false,
+                    closeOnClick: false,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "light",
+                    transition: Slide,
+                    });
             } finally {
                 setLoading(false);
             }
@@ -27,15 +39,65 @@ const TechnologySection = () => {
     const handleAddToCart = (techData) => {
         const isAlreadyExist = myTechStack.find(singleTech => singleTech.id === techData.id);
 
-        if (!isAlreadyExist) {
-           setMyTechStack([...myTechStack, techData])
+        if (isAlreadyExist) {
+            return toast.error(`${techData.name} already added! Duplicate not allow.`, {
+                    position: "top-right",
+                    autoClose: 3000,
+                    hideProgressBar: false,
+                    closeOnClick: false,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "light",
+                    transition: Slide,
+                    });
+           
         }
+
+        setMyTechStack([...myTechStack, techData])
+        toast.success(`${techData.name} successfully added.`, {
+            position: "top-right",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            transition: Slide,
+            });
         
     }
 
     const handleRemoveFromCart = (singleTech) => {
         const remainingTech = myTechStack.filter(tech => tech.id !== singleTech.id);
         setMyTechStack(remainingTech);
+        toast.success(`${singleTech.name} successfully removed.`, {
+            position: "top-right",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            transition: Slide,
+            });
+    }
+
+    const handleRemoveAll = () => {
+        setMyTechStack([]);
+        toast.success(`Successfully removed all Stack.`, {
+            position: "top-right",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            transition: Slide,
+            });
     }
     
   return (
@@ -55,7 +117,7 @@ const TechnologySection = () => {
                 }
             </div>
             <div className='w-full lg:w-76'>
-                <TechnologyCartSection myTechStack={myTechStack} handleRemoveFromCart={handleRemoveFromCart} />
+                <TechnologyCartSection myTechStack={myTechStack} handleRemoveFromCart={handleRemoveFromCart} handleRemoveAll={handleRemoveAll} />
             </div>
         </div>
     </div>

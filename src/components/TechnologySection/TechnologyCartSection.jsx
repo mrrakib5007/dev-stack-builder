@@ -1,7 +1,7 @@
 import React from "react";
 import CartTechCard from "./CartTechCard";
 
-const TechnologyCartSection = ({myTechStack, handleRemoveFromCart}) => {
+const TechnologyCartSection = ({myTechStack, handleRemoveFromCart, handleRemoveAll}) => {
 
   return (
     <div className="border border-gray-200 p-5 rounded-2xl">
@@ -17,11 +17,12 @@ const TechnologyCartSection = ({myTechStack, handleRemoveFromCart}) => {
         </div> : 
         <div>
             <p className="text-[#94A3B8] text-sm mb-5"> {myTechStack.length} Technology Selected </p>
-            <div className="grid grid-cols-1 gap-2">
+            <div className="grid grid-cols-1 gap-2 mb-4">
                 {
                     myTechStack.map(singleTech => <CartTechCard key={singleTech.id} singleTech={singleTech} handleRemoveFromCart={handleRemoveFromCart} />)
                 }
             </div>
+            <button onClick={handleRemoveAll} className="bg-transparent border border-red-300 text-red-700 p-2 w-full font-semibold rounded-xl cursor-pointer">Remove All</button>
         </div>
       }
     </div>

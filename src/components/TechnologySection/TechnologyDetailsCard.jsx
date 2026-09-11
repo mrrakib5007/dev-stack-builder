@@ -39,7 +39,7 @@ const TechnologyDetailsCard = ({ techData, handleAddToCart, myTechStack }) => {
                     </div>
                 </div>
 
-                <button onClick={() => handleAddToCart(techData)} disabled={isExist} className={`w-full py-2.5 bg-gray-900 hover:bg-gray-800 text-white text-sm font-semibold rounded-xl transition-colors cursor-pointer disabled:bg-red-100 disabled:text-red-500`}>
+                <button onClick={() => handleAddToCart(techData)} className={`w-full py-2.5 ${isExist ? "bg-red-100 text-red-500" : "bg-gray-900 hover:bg-gray-800 text-white"} text-sm font-semibold rounded-xl transition-colors cursor-pointer `}>
                     {
                         isExist ? "✔ Added to Stack" : "Add to Stack"
                     }
