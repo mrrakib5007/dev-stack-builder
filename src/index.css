@@ -1,0 +1,39 @@
+/* Plus Jakarta Sans Google font  */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+  --primary: #FF5722;
+  --secoundary-color: #D81B7E;
+  --third-color: #7C3AED;
+  
+  --text-gradient: linear-gradient(
+    90deg, 
+    var(--primary) 0%, 
+    var(--secoundary-color) 50%, 
+    var(--third-color) 100%
+  );
+  
+  --btn-gradient: linear-gradient(
+    90deg, 
+    var(--primary) 0%, 
+    var(--secoundary-color) 100%
+  );
+}
+
+body { 
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.brand-gradient-text {
+  background: var(--text-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.brand-btn-bg {
+  background: var(--btn-gradient);
+}

@@ -1,12 +1,11 @@
+import Navbar from './components/Navbar'
 
-function App() {
 
+const App = () => {
   return (
-    <>
-      <div>
-        Project Initialized
-      </div>
-    </>
+    <div>
+      <Navbar />
+    </div>
   )
 }
 

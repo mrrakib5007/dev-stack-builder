@@ -4,149 +4,164 @@
     "name": "React",
     "category": "Frontend",
     "description": "A declarative, component-based JavaScript library for building modern user interfaces.",
-    "icon": "https://techicons.dev/icons/react",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
-    "badge": "Popular"
+    "badge": "Popular",
+    "badgeColor": "bg-sky-100 text-sky-500"
   },
   {
     "id": "postgresql",
     "name": "PostgreSQL",
     "category": "Database",
     "description": "A powerful, open-source object-relational database system with proven reliability.",
-    "icon": "https://techicons.dev/icons/postgresql",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg",
     "rating": 4.9,
     "difficulty": "Intermediate",
-    "badge": "Top SQL"
+    "badge": "Top SQL",
+    "badgeColor": "bg-indigo-100 text-indigo-600"
   },
   {
     "id": "javascript",
     "name": "JavaScript",
     "category": "Language",
     "description": "A lightweight, interpreted, or just-in-time compiled programming language with first-class functions.",
-    "icon": "https://techicons.dev/icons/javascript",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
     "rating": 4.8,
     "difficulty": "Beginner-Friendly",
-    "badge": "Essential"
+    "badge": "Essential",
+    "badgeColor": "bg-amber-100 text-amber-500"
   },
   {
     "id": "typescript",
     "name": "TypeScript",
     "category": "Language",
     "description": "An extension of JavaScript that adds types to the language, accelerating development and catching errors early.",
-    "icon": "https://techicons.dev/icons/typescript",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
     "rating": 4.9,
     "difficulty": "Intermediate",
-    "badge": "Trending"
+    "badge": "Trending",
+    "badgeColor": "bg-blue-100 text-blue-600"
   },
   {
     "id": "nodejs",
     "name": "Node.js",
     "category": "Backend",
     "description": "A JavaScript runtime built on Chrome's V8 JavaScript engine for scalable network applications.",
-    "icon": "https://techicons.dev/icons/nodejs",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
     "rating": 4.7,
     "difficulty": "Intermediate",
-    "badge": "Popular"
+    "badge": "Popular",
+    "badgeColor": "bg-green-100 text-green-600"
   },
   {
     "id": "python",
     "name": "Python",
     "category": "Language",
     "description": "A high-level, general-purpose programming language known for its clear syntax and vast ecosystem.",
-    "icon": "https://techicons.dev/icons/python",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
-    "badge": "Top Choice"
+    "badge": "Top Choice",
+    "badgeColor": "bg-yellow-100 text-yellow-600"
   },
   {
     "id": "docker",
     "name": "Docker",
     "category": "DevOps",
     "description": "A set of platform as a service products that use OS-level virtualization to deliver software in containers.",
-    "icon": "https://techicons.dev/icons/docker",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg",
     "rating": 4.8,
     "difficulty": "Advanced",
-    "badge": "Essential"
+    "badge": "Essential",
+    "badgeColor": "bg-cyan-100 text-cyan-600"
   },
   {
     "id": "mongodb",
     "name": "MongoDB",
     "category": "Database",
     "description": "A source-available cross-platform document-oriented database program classified as a NoSQL database.",
-    "icon": "https://techicons.dev/icons/mongodb",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
     "rating": 4.6,
     "difficulty": "Beginner-Friendly",
-    "badge": "Top NoSQL"
+    "badge": "Top NoSQL",
+    "badgeColor": "bg-emerald-100 text-emerald-600"
   },
   {
     "id": "tailwindcss",
     "name": "Tailwind CSS",
     "category": "Frontend",
     "description": "A utility-first CSS framework packed with classes that can be composed to build any design directly.",
-    "icon": "https://techicons.dev/icons/tailwindcss",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
-    "badge": "Favorite"
+    "badge": "Favorite",
+    "badgeColor": "bg-teal-100 text-teal-600"
   },
   {
     "id": "nextjs",
     "name": "Next.js",
     "category": "Fullstack",
     "description": "An open-source web development framework providing React-based web applications with server-side rendering.",
-    "icon": "https://techicons.dev/icons/nextjs",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
     "rating": 4.9,
     "difficulty": "Intermediate",
-    "badge": "Must-Know"
+    "badge": "Must-Know",
+    "badgeColor": "bg-gray-100 text-gray-800"
   },
   {
     "id": "redis",
     "name": "Redis",
     "category": "Database",
     "description": "An in-memory data structure store used as a distributed, in-memory key-value database, cache, and message broker.",
-    "icon": "https://techicons.dev/icons/redis",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg",
     "rating": 4.8,
     "difficulty": "Advanced",
-    "badge": "High Performance"
+    "badge": "High Performance",
+    "badgeColor": "bg-red-100 text-red-600"
   },
   {
     "id": "graphql",
     "name": "GraphQL",
     "category": "API",
     "description": "An open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data.",
-    "icon": "https://techicons.dev/icons/graphql",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/graphql/graphql-plain.svg",
     "rating": 4.7,
     "difficulty": "Advanced",
-    "badge": "Modern"
+    "badge": "Modern",
+    "badgeColor": "bg-pink-100 text-pink-600"
   },
   {
     "id": "git",
     "name": "Git",
     "category": "Tools",
     "description": "A distributed version control system tracking changes in any set of computer files, usually used for coordinate work.",
-    "icon": "https://techicons.dev/icons/git",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
-    "badge": "Essential"
+    "badge": "Essential",
+    "badgeColor": "bg-orange-100 text-orange-600"
   },
   {
     "id": "vue",
     "name": "Vue.js",
     "category": "Frontend",
     "description": "An incremental JavaScript framework for building user interfaces on top of standard HTML, CSS, and JavaScript.",
-    "icon": "https://techicons.dev/icons/vuejs",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg",
     "rating": 4.8,
     "difficulty": "Beginner-Friendly",
-    "badge": "Progressive"
+    "badge": "Progressive",
+    "badgeColor": "bg-emerald-100 text-emerald-500"
   },
   {
     "id": "kubernetes",
     "name": "Kubernetes",
     "category": "DevOps",
     "description": "An open-source system for automating deployment, scaling, and management of containerized applications.",
-    "icon": "https://techicons.dev/icons/kubernetes",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-original.svg",
     "rating": 4.7,
     "difficulty": "Advanced",
-    "badge": "Enterprise"
+    "badge": "Enterprise",
+    "badgeColor": "bg-indigo-100 text-indigo-500"
   }
 ]
